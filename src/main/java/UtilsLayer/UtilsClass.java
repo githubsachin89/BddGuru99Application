@@ -24,9 +24,7 @@ public class UtilsClass
 	public static void selectvisible(WebElement wb, String value) {
 		
 		Select sel =new Select(wb);
-		sel.selectByVisibleText(value);
-		
-				
+		sel.selectByVisibleText(value);				
 	}
 
 }
